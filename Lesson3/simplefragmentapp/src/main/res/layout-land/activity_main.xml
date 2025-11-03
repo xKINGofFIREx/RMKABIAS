@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <fragment android:name="com.mirea.ilinav.simplefragmentapp.FirstFragment"
+            android:id="@+id/list"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <fragment
+            android:id="@+id/viewer"
+            android:name="com.mirea.ilinav.simplefragmentapp.SecondFragment"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            tools:layout_editor_absoluteX="58dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
