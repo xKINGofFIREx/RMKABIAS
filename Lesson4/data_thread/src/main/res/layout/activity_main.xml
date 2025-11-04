@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ru.mirea.ilinav.data_thread.MainActivity">
+
+    <TextView
+        android:id="@+id/tvInfo"
+        android:layout_width="391dp"
+        android:layout_height="290dp"
+        android:lines="20"
+        android:maxLines="20"
+        android:text="runOnUiThread(Runnable) - этот метод позволяет выполнять код, который изменяет UI, из фонового потока. Просто передаем объект Runnable в этот метод, и код внутри Runnable будет выполнен на главном потоке.\n \npost(Runnable) - метод post позволяет добавить код в очередь обработки, которая будет выполнена в UI потоке. Он также принимает объект Runnable, который будет запущен, как только процесс UI сможет его выполнить.\n \n postDelayed(Runnable, long delayMillis) - метод схож с post, но позволяет указать задержку перед выполнением кода.\n\nПри выполнении будет следующая очередность процессов: runn 1, runn 2, runn 3."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
