@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "444441838761",
+    "project_id": "ilinav-firebaseauth",
+    "storage_bucket": "ilinav-firebaseauth.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444441838761:android:a86dc0600a9b27a734d5b8",
+        "android_client_info": {
+          "package_name": "ru.mirea.ilinav.firebaseauth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBo_S7wCLgV0M4eOG3xambquLtHYtyEqlU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
